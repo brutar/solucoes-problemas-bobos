@@ -7,7 +7,7 @@ let numerosQuebrados = [];
 for(let i = 0; i < numerozao.length;i++){
     num = num + numerozao[i];
     //adiciona uma sequencia de 2 caracteres em no array numerosQuebrados
-    //no caso de sobrar 1 carater, é adicionado 0 na frente desse caracter
+    //no caso de sobrar 1 caratere, é adicionado 0 na frente desse caractere
     if(i%2 == 1){
       numerosQuebrados.push(num);
       num = '';
